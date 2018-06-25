@@ -109,19 +109,19 @@ buttonRow2.pack(side = TOP)
 buttonD8 = Button(buttonRow2, padx= 16, pady= 16, bd= 8, text="d8",
                   fg="black", command= lambda:dice(diceNumber, 8) )
 buttonD8.pack(side = LEFT)
-buttonD12 = Button(buttonRow2, padx= 13, pady= 16, bd= 8, text="d12",
-                   fg="black", command= lambda:dice(diceNumber, 12) )
+buttonD12 = Button(buttonRow2, padx= 13, pady= 16, bd= 8, text="d10",
+                   fg="black", command= lambda:dice(diceNumber, 10) )
 buttonD12.pack(side = LEFT)
-buttonD20 = Button(buttonRow2, padx= 13, pady= 16, bd= 8, text="d20",
-                   fg="black", command= lambda:dice(diceNumber, 20) )
+buttonD20 = Button(buttonRow2, padx= 13, pady= 16, bd= 8, text="d12",
+                   fg="black", command= lambda:dice(diceNumber, 12) )
 buttonD20.pack(side = LEFT)
 
 #####################################
 buttonRow3 = Frame(window)
 buttonRow3.pack(side = TOP)
 
-buttonD50 = Button(buttonRow3, padx= 13, pady= 16, bd= 8, text="d50",
-                   fg="black", command= lambda:dice(diceNumber, 50) )
+buttonD50 = Button(buttonRow3, padx= 13, pady= 16, bd= 8, text="d20",
+                   fg="black", command= lambda:dice(diceNumber, 20) )
 buttonD50.pack(side = LEFT)
 buttonD100 = Button(buttonRow3, padx= 10, pady= 16, bd= 8, text="d100",
                     fg="black", command= lambda:dice(diceNumber, 100) )
