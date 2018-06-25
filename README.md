@@ -6,3 +6,7 @@ Future possible features to add:
 - different skins 
 - extended bars to show modifiers 
 - possible random name generator
+
+Compile it with: 
+pip install pyinstaller
+pyinstaller --debug --onefile --noupx DnD_roller.py
