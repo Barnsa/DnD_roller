@@ -8,5 +8,5 @@ Future possible features to add:
 - possible random name generator
 
 Compile it with: 
-pip install pyinstaller
-pyinstaller --debug --onefile --noupx DnD_roller.py
+- pip install pyinstaller
+- pyinstaller --debug --onefile --noupx DnD_roller.py
