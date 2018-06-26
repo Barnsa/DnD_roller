@@ -9,4 +9,4 @@ Future possible features to add:
 
 Compile it with: 
 - pip install pyinstaller
-- pyinstaller --debug --onefile --noupx DnD_roller.py
+- pyinstaller --windowed --onefile --noupx DnD_roller.py
